@@ -122,10 +122,102 @@ header {
     height: 885px;
     display: flex;
     justify-content: center;
+    gap: 120px;
     align-items: center;
     flex-direction: column;
 }
 
-.FirstContainer p {
 
+.FirstContainer p {
+    width: 1077px;
+    height: 222px;
+    font-family: 'Source Serif Pro';
+    font-size: 60px;
+    text-align: center;
+    background-color: #24502b;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.FirstContainer div {
+    font-family: 'Source Serif Pro';
+    font-size: 30px;
+    background-color: #488151;
+    color: white;
+    width: 364px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 29px;
+}
+
+.SecondContainer {
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 646px;
+    background: #24502b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+    flex-direction: column;
+    color: white;
+}
+
+.FirstParagraph{
+    font-family: 'Source Serif Pro';
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+
+.PromoteText {
+    font-family: 'Source Serif Pro';
+    font-size: 30px;
+    width: 794px;
+    text-align: justify;
+}
+
+.ThirdContainer {
+    height: 1664px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ThirdContainer p {
+    color: black;
+    font-family: 'Source Serif Pro';
+    font-weight: bold;
+}
+
+.ScanningContainer, .PrintingContainer, .DesignContainer {
+    display: flex;
+    justify-content: center;
+    gap: 118px;
+    align-items: center;
+}
+
+.ScanningText, .PrintingText, .DesignText {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.ButtonOrder {
+    font-family: 'Source Serif Pro';
+    font-size: 40px;
+    color: white;
+    background-color: #488151;
+    width: 364px;
+    height: 62px;
+    border-radius: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
 }
