@@ -12,27 +12,28 @@
         <img src="Source/LogoPic.png" alt="#">
     </div>
     <div class="nav">
-        <p>Главная</p>
-        <p>Быстрый заказ</p>
-        <p>Услуги</p>
-        <p>Контакты</p>
+        <a href="#1">Главная</a>
+        <a href="#4">Быстрый заказ</a>
+        <a href="#3">Услуги</a>
+        <a href="#5">Контакты</a>
     </div>
 </header>
 <main>
-    <div class="FirstContainer">
+    <div class="FirstContainer" id="1">
         <p>Откройте для себя безграничные возможности 3D-печати</p>
         <div>Заказать модель</div>
     </div>
-    <div class="SecondContainer">
+    <div class="SecondContainer" id="2">
         <p class="FirstParagraph">
             Искусство - это революция
         </p>
         <p class="PromoteText">
-            Воплотите свое творчество в жизнь с помощью нашей современной технологии 3D-печати, создающей детализированные модели.
+            Воплотите свое творчество в жизнь с помощью нашей современной технологии 3D-печати, создающей
+            детализированные модели.
             От прототипов до художественных шедевров, совершив революцию в вашем воображении.
         </p>
     </div>
-    <div class="ThirdContainer">
+    <div class="ThirdContainer" id="3">
         <p class="FirstParagraph">
             У нас вы можете заказать
         </p>
@@ -53,12 +54,32 @@
         </div>
         <div class="ButtonOrder">Заказать</div>
     </div>
-    <div class="FourthContainer">
-
+    <div class="FourthContainer" id="4">
+        <p class="FirstParagraph">
+            Заказ модели
+        </p>
+        <textarea class="NameLastName" placeholder="Фамилия, Имя"></textarea>
+        <textarea class="Phone" placeholder="Номер телефона"></textarea>
+        <select class="Service">
+            <option value="" disabled selected>Услуга</option>
+            <option value="#">3D-сканирование</option>
+            <option value="#">3D-печать</option>
+            <option value="#">Дизайн 3D-модели</option>
+        </select>
     </div>
 </main>
-<footer>
-
+<footer id="5">
+    <div class="ContactInf">
+        <p>КОНТАКТЫ:</p>
+        <p>Почта: cubelab@gmail.com</p>
+        <p>Тел. : +7 (945) 888 88 88</p>
+        <p>Адрес: Санкт-Петербург,</p>
+        <p>набережная канала Грибоедова 20.</p>
+    </div>
+    <div class="Logo">
+        <p class="CompanyName">CUBE</p>
+        <img src="Source/LogoPic.png" alt="#">
+    </div>
 </footer>
 </body>
 </html>

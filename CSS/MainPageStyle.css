@@ -221,3 +221,70 @@ header {
     align-items: center;
     margin-top: 42px;
 }
+
+.FourthContainer {
+    background: #6da476;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.NameLastName, .Phone, .Service {
+    width: 531px;
+    height: 70px;
+    border-radius: 29px;
+    background: #488151;
+    color: #2f5535;
+    font-family: 'Source Serif Pro';
+    font-size: 30px;
+    text-align: center;
+}
+
+.NameLastName, .Phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.NameLastName::placeholder, .Phone::placeholder {
+    color: #2f5535;
+}
+
+footer {
+    height: 480px;
+    background-color: #202020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ContactInf {
+    color: white;
+    font-family: 'Source Serif Pro';
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.7em;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.nav a:hover {
+    cursor: pointer;
+}
+
+.nav a {
+    color: black;
+}
